@@ -1,0 +1,741 @@
+[{
+  "codigo_pedido": 1,
+  "fecha_pedido": "2006-01-17",
+  "fecha_esperada": "2006-01-19",
+  "fecha_entrega": {
+    "$date": "2006-01-19T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "Pagado a plazos",
+  "codigo_cliente": 5
+},{
+  "codigo_pedido": 2,
+  "fecha_pedido": "2007-10-23",
+  "fecha_esperada": "2007-10-28",
+  "fecha_entrega": {
+    "$date": "2007-10-26T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "La entrega llego antes de lo esperado",
+  "codigo_cliente": 5
+},{
+  "codigo_pedido": 8,
+  "fecha_pedido": "2008-11-09",
+  "fecha_esperada": "2008-11-14",
+  "fecha_entrega": {
+    "$date": "2008-11-14T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "El cliente paga la mitad con tarjeta y la otra mitad con efectivo, se le realizan dos facturas",
+  "codigo_cliente": 1
+},{
+  "codigo_pedido": 9,
+  "fecha_pedido": "2008-12-22",
+  "fecha_esperada": "2008-12-27",
+  "fecha_entrega": {
+    "$date": "2008-12-28T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "El cliente comprueba la integridad del paquete, todo correcto",
+  "codigo_cliente": 1
+},{
+  "codigo_pedido": 13,
+  "fecha_pedido": "2009-01-12",
+  "fecha_esperada": "2009-01-14",
+  "fecha_entrega": {
+    "$date": "2009-01-15T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 7
+},{
+  "codigo_pedido": 15,
+  "fecha_pedido": "2009-01-09",
+  "fecha_esperada": "2009-01-12",
+  "fecha_entrega": {
+    "$date": "2009-01-11T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 7
+},{
+  "codigo_pedido": 16,
+  "fecha_pedido": "2009-01-06",
+  "fecha_esperada": "2009-01-07",
+  "fecha_entrega": {
+    "$date": "2009-01-15T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 7
+},{
+  "codigo_pedido": 17,
+  "fecha_pedido": "2009-01-08",
+  "fecha_esperada": "2009-01-09",
+  "fecha_entrega": {
+    "$date": "2009-01-11T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "mal estado",
+  "codigo_cliente": 7
+},{
+  "codigo_pedido": 18,
+  "fecha_pedido": "2009-01-05",
+  "fecha_esperada": "2009-01-06",
+  "fecha_entrega": {
+    "$date": "2009-01-07T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 9
+},{
+  "codigo_pedido": 21,
+  "fecha_pedido": "2009-01-09",
+  "fecha_esperada": "2009-01-09",
+  "fecha_entrega": {
+    "$date": "2009-01-09T00:00:00.000Z"
+  },
+  "estado": "Rechazado",
+  "comentarios": "mal pago",
+  "codigo_cliente": 9
+},{
+  "codigo_pedido": 22,
+  "fecha_pedido": "2009-01-11",
+  "fecha_esperada": "2009-01-11",
+  "fecha_entrega": {
+    "$date": "2009-01-13T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 9
+},{
+  "codigo_pedido": 24,
+  "fecha_pedido": "2008-07-14",
+  "fecha_esperada": "2008-07-31",
+  "fecha_entrega": {
+    "$date": "2008-07-25T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 14
+},{
+  "codigo_pedido": 28,
+  "fecha_pedido": "2009-02-10",
+  "fecha_esperada": "2009-02-17",
+  "fecha_entrega": {
+    "$date": "2009-02-20T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "El cliente se queja bastante de la espera asociada al producto",
+  "codigo_cliente": 3
+},{
+  "codigo_pedido": 29,
+  "fecha_pedido": "2008-08-01",
+  "fecha_esperada": "2008-09-01",
+  "fecha_entrega": {
+    "$date": "2008-09-01T00:00:00.000Z"
+  },
+  "estado": "Rechazado",
+  "comentarios": "El cliente no está conforme con el pedido",
+  "codigo_cliente": 14
+},{
+  "codigo_pedido": 30,
+  "fecha_pedido": "2008-08-03",
+  "fecha_esperada": "2008-09-03",
+  "fecha_entrega": {
+    "$date": "2008-08-31T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 13
+},{
+  "codigo_pedido": 31,
+  "fecha_pedido": "2008-09-04",
+  "fecha_esperada": "2008-09-30",
+  "fecha_entrega": {
+    "$date": "2008-10-04T00:00:00.000Z"
+  },
+  "estado": "Rechazado",
+  "comentarios": "El cliente ha rechazado por llegar 5 dias tarde",
+  "codigo_cliente": 13
+},{
+  "codigo_pedido": 32,
+  "fecha_pedido": "2007-01-07",
+  "fecha_esperada": "2007-01-19",
+  "fecha_entrega": {
+    "$date": "2007-01-27T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "Entrega tardia, el cliente puso reclamacion",
+  "codigo_cliente": 4
+},{
+  "codigo_pedido": 34,
+  "fecha_pedido": "2007-06-20",
+  "fecha_esperada": "2008-06-28",
+  "fecha_entrega": {
+    "$date": "2008-06-28T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "Pagado a plazos",
+  "codigo_cliente": 4
+},{
+  "codigo_pedido": 36,
+  "fecha_pedido": "2008-10-15",
+  "fecha_esperada": "2008-12-15",
+  "fecha_entrega": {
+    "$date": "2008-12-10T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 14
+},{
+  "codigo_pedido": 38,
+  "fecha_pedido": "2009-03-05",
+  "fecha_esperada": "2009-03-06",
+  "fecha_entrega": {
+    "$date": "2009-03-07T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 19
+},{
+  "codigo_pedido": 39,
+  "fecha_pedido": "2009-03-06",
+  "fecha_esperada": "2009-03-07",
+  "fecha_entrega": {
+    "$date": "2009-03-09T00:00:00.000Z"
+  },
+  "estado": "Pendiente",
+  "comentarios": "NULL",
+  "codigo_cliente": 19
+},{
+  "codigo_pedido": 40,
+  "fecha_pedido": "2009-03-09",
+  "fecha_esperada": "2009-03-10",
+  "fecha_entrega": {
+    "$date": "2009-03-13T00:00:00.000Z"
+  },
+  "estado": "Rechazado",
+  "comentarios": "NULL",
+  "codigo_cliente": 19
+},{
+  "codigo_pedido": 41,
+  "fecha_pedido": "2009-03-12",
+  "fecha_esperada": "2009-03-13",
+  "fecha_entrega": {
+    "$date": "2009-03-13T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 19
+},{
+  "codigo_pedido": 42,
+  "fecha_pedido": "2009-03-22",
+  "fecha_esperada": "2009-03-23",
+  "fecha_entrega": {
+    "$date": "2009-03-27T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 19
+},{
+  "codigo_pedido": 43,
+  "fecha_pedido": "2009-03-25",
+  "fecha_esperada": "2009-03-26",
+  "fecha_entrega": {
+    "$date": "2009-03-28T00:00:00.000Z"
+  },
+  "estado": "Pendiente",
+  "comentarios": "NULL",
+  "codigo_cliente": 23
+},{
+  "codigo_pedido": 44,
+  "fecha_pedido": "2009-03-26",
+  "fecha_esperada": "2009-03-27",
+  "fecha_entrega": {
+    "$date": "2009-03-30T00:00:00.000Z"
+  },
+  "estado": "Pendiente",
+  "comentarios": "NULL",
+  "codigo_cliente": 23
+},{
+  "codigo_pedido": 45,
+  "fecha_pedido": "2009-04-01",
+  "fecha_esperada": "2009-03-04",
+  "fecha_entrega": {
+    "$date": "2009-03-07T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 23
+},{
+  "codigo_pedido": 46,
+  "fecha_pedido": "2009-04-03",
+  "fecha_esperada": "2009-03-04",
+  "fecha_entrega": {
+    "$date": "2009-03-05T00:00:00.000Z"
+  },
+  "estado": "Rechazado",
+  "comentarios": "NULL",
+  "codigo_cliente": 23
+},{
+  "codigo_pedido": 47,
+  "fecha_pedido": "2009-04-15",
+  "fecha_esperada": "2009-03-17",
+  "fecha_entrega": {
+    "$date": "2009-03-17T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 23
+},{
+  "codigo_pedido": 48,
+  "fecha_pedido": "2008-03-17",
+  "fecha_esperada": "2008-03-30",
+  "fecha_entrega": {
+    "$date": "2008-03-29T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "Según el Cliente, el pedido llegó defectuoso",
+  "codigo_cliente": 26
+},{
+  "codigo_pedido": 49,
+  "fecha_pedido": "2008-07-12",
+  "fecha_esperada": "2008-07-22",
+  "fecha_entrega": {
+    "$date": "2008-07-30T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "El pedido llegó 1 día tarde, pero no hubo queja por parte de la empresa compradora",
+  "codigo_cliente": 26
+},{
+  "codigo_pedido": 51,
+  "fecha_pedido": "2008-10-01",
+  "fecha_esperada": "2008-10-14",
+  "fecha_entrega": {
+    "$date": "2008-10-14T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "Todo se entregó a tiempo y en perfecto estado, a pesar del pésimo estado de las carreteras.",
+  "codigo_cliente": 26
+},{
+  "codigo_pedido": 53,
+  "fecha_pedido": "2008-10-15",
+  "fecha_esperada": "2008-11-15",
+  "fecha_entrega": {
+    "$date": "2008-11-09T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "El pedido llega 6 dias antes",
+  "codigo_cliente": 13
+},{
+  "codigo_pedido": 55,
+  "fecha_pedido": "2008-12-10",
+  "fecha_esperada": "2009-01-10",
+  "fecha_entrega": {
+    "$date": "2009-01-11T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "Retrasado 1 dia por problemas de transporte",
+  "codigo_cliente": 14
+},{
+  "codigo_pedido": 58,
+  "fecha_pedido": "2009-01-24",
+  "fecha_esperada": "2009-01-31",
+  "fecha_entrega": {
+    "$date": "2009-01-30T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "Todo correcto",
+  "codigo_cliente": 3
+},{
+  "codigo_pedido": 59,
+  "fecha_pedido": "2008-11-09",
+  "fecha_esperada": "2008-11-14",
+  "fecha_entrega": {
+    "$date": "2008-11-14T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "El cliente paga la mitad con tarjeta y la otra mitad con efectivo, se le realizan dos facturas",
+  "codigo_cliente": 1
+},{
+  "codigo_pedido": 60,
+  "fecha_pedido": "2008-12-22",
+  "fecha_esperada": "2008-12-27",
+  "fecha_entrega": {
+    "$date": "2008-12-28T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "El cliente comprueba la integridad del paquete, todo correcto",
+  "codigo_cliente": 1
+},{
+  "codigo_pedido": 64,
+  "fecha_pedido": "2009-01-24",
+  "fecha_esperada": "2009-01-31",
+  "fecha_entrega": {
+    "$date": "2009-01-30T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "Todo correcto",
+  "codigo_cliente": 1
+},{
+  "codigo_pedido": 68,
+  "fecha_pedido": "2009-02-10",
+  "fecha_esperada": "2009-02-17",
+  "fecha_entrega": {
+    "$date": "2009-02-20T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "El cliente se queja bastante de la espera asociada al producto",
+  "codigo_cliente": 3
+},{
+  "codigo_pedido": 75,
+  "fecha_pedido": "2009-01-11",
+  "fecha_esperada": "2009-01-13",
+  "fecha_entrega": {
+    "$date": "2009-01-13T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "El pedido llego perfectamente",
+  "codigo_cliente": 15
+},{
+  "codigo_pedido": 76,
+  "fecha_pedido": "2008-11-15",
+  "fecha_esperada": "2008-11-23",
+  "fecha_entrega": {
+    "$date": "2008-11-23T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 15
+},{
+  "codigo_pedido": 78,
+  "fecha_pedido": "2008-12-15",
+  "fecha_esperada": "2008-12-17",
+  "fecha_entrega": {
+    "$date": "2008-12-17T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "Fue entregado, pero faltaba mercancia que sera entregada otro dia",
+  "codigo_cliente": 15
+},{
+  "codigo_pedido": 79,
+  "fecha_pedido": "2009-01-12",
+  "fecha_esperada": "2009-01-13",
+  "fecha_entrega": {
+    "$date": "2009-01-13T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 28
+},{
+  "codigo_pedido": 82,
+  "fecha_pedido": "2009-01-20",
+  "fecha_esperada": "2009-01-29",
+  "fecha_entrega": {
+    "$date": "2009-01-29T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "El pedido llego un poco mas tarde de la hora fijada",
+  "codigo_cliente": 28
+},{
+  "codigo_pedido": 89,
+  "fecha_pedido": "2007-10-05",
+  "fecha_esperada": "2007-12-13",
+  "fecha_entrega": {
+    "$date": "2007-12-10T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "La entrega se realizo dias antes de la fecha esperada por lo que el cliente quedo satisfecho",
+  "codigo_cliente": 35
+},{
+  "codigo_pedido": 91,
+  "fecha_pedido": "2009-03-18",
+  "fecha_esperada": "2009-03-29",
+  "fecha_entrega": {
+    "$date": "2009-03-27T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "Todo se entregó a su debido tiempo, incluso con un día de antelación",
+  "codigo_cliente": 27
+},{
+  "codigo_pedido": 92,
+  "fecha_pedido": "2009-04-19",
+  "fecha_esperada": "2009-04-30",
+  "fecha_entrega": {
+    "$date": "2009-05-03T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "El pedido se entregó tarde debido a la festividad celebrada en España durante esas fechas",
+  "codigo_cliente": 27
+},{
+  "codigo_pedido": 93,
+  "fecha_pedido": "2009-05-03",
+  "fecha_esperada": "2009-05-30",
+  "fecha_entrega": {
+    "$date": "2009-05-17T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "El pedido se entregó antes de lo esperado.",
+  "codigo_cliente": 27
+},{
+  "codigo_pedido": 95,
+  "fecha_pedido": "2008-01-04",
+  "fecha_esperada": "2008-01-19",
+  "fecha_entrega": {
+    "$date": "2008-01-19T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 35
+},{
+  "codigo_pedido": 96,
+  "fecha_pedido": "2008-03-20",
+  "fecha_esperada": "2008-04-12",
+  "fecha_entrega": {
+    "$date": "2008-04-13T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "La entrega se retraso un dia",
+  "codigo_cliente": 35
+},{
+  "codigo_pedido": 97,
+  "fecha_pedido": "2008-10-08",
+  "fecha_esperada": "2008-11-25",
+  "fecha_entrega": {
+    "$date": "2008-11-25T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 35
+},{
+  "codigo_pedido": 100,
+  "fecha_pedido": "2009-01-10",
+  "fecha_esperada": "2009-01-15",
+  "fecha_entrega": {
+    "$date": "2009-01-15T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "El pedido llego perfectamente",
+  "codigo_cliente": 16
+},{
+  "codigo_pedido": 102,
+  "fecha_pedido": "2008-12-28",
+  "fecha_esperada": "2009-01-08",
+  "fecha_entrega": {
+    "$date": "2009-01-08T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "Pago pendiente",
+  "codigo_cliente": 16
+},{
+  "codigo_pedido": 103,
+  "fecha_pedido": "2009-01-15",
+  "fecha_esperada": "2009-01-20",
+  "fecha_entrega": {
+    "$date": "2009-01-24T00:00:00.000Z"
+  },
+  "estado": "Pendiente",
+  "comentarios": "NULL",
+  "codigo_cliente": 30
+},{
+  "codigo_pedido": 104,
+  "fecha_pedido": "2009-03-02",
+  "fecha_esperada": "2009-03-06",
+  "fecha_entrega": {
+    "$date": "2009-03-06T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 30
+},{
+  "codigo_pedido": 106,
+  "fecha_pedido": "2009-05-13",
+  "fecha_esperada": "2009-05-15",
+  "fecha_entrega": {
+    "$date": "2009-05-20T00:00:00.000Z"
+  },
+  "estado": "Pendiente",
+  "comentarios": "NULL",
+  "codigo_cliente": 30
+},{
+  "codigo_pedido": 107,
+  "fecha_pedido": "2009-04-06",
+  "fecha_esperada": "2009-04-10",
+  "fecha_entrega": {
+    "$date": "2009-04-10T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 30
+},{
+  "codigo_pedido": 108,
+  "fecha_pedido": "2009-04-09",
+  "fecha_esperada": "2009-04-15",
+  "fecha_entrega": {
+    "$date": "2009-04-15T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 16
+},{
+  "codigo_pedido": 109,
+  "fecha_pedido": "2006-05-25",
+  "fecha_esperada": "2006-07-28",
+  "fecha_entrega": {
+    "$date": "2006-07-28T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 38
+},{
+  "codigo_pedido": 110,
+  "fecha_pedido": "2007-03-19",
+  "fecha_esperada": "2007-04-24",
+  "fecha_entrega": {
+    "$date": "2007-04-24T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 38
+},{
+  "codigo_pedido": 111,
+  "fecha_pedido": "2008-03-05",
+  "fecha_esperada": "2008-03-30",
+  "fecha_entrega": {
+    "$date": "2008-03-30T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 36
+},{
+  "codigo_pedido": 112,
+  "fecha_pedido": "2009-03-05",
+  "fecha_esperada": "2009-04-06",
+  "fecha_entrega": {
+    "$date": "2009-05-07T00:00:00.000Z"
+  },
+  "estado": "Pendiente",
+  "comentarios": "NULL",
+  "codigo_cliente": 36
+},{
+  "codigo_pedido": 113,
+  "fecha_pedido": "2008-10-28",
+  "fecha_esperada": "2008-11-09",
+  "fecha_entrega": {
+    "$date": "2009-01-09T00:00:00.000Z"
+  },
+  "estado": "Rechazado",
+  "comentarios": "El producto ha sido rechazado por la tardanza de el envio",
+  "codigo_cliente": 36
+},{
+  "codigo_pedido": 114,
+  "fecha_pedido": "2009-01-15",
+  "fecha_esperada": "2009-01-29",
+  "fecha_entrega": {
+    "$date": "2009-01-31T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "El envio llego dos dias más tarde debido al mal tiempo",
+  "codigo_cliente": 36
+},{
+  "codigo_pedido": 115,
+  "fecha_pedido": "2008-11-29",
+  "fecha_esperada": "2009-01-26",
+  "fecha_entrega": {
+    "$date": "2009-02-27T00:00:00.000Z"
+  },
+  "estado": "Pendiente",
+  "comentarios": "NULL",
+  "codigo_cliente": 36
+},{
+  "codigo_pedido": 116,
+  "fecha_pedido": "2008-06-28",
+  "fecha_esperada": "2008-08-01",
+  "fecha_entrega": {
+    "$date": "2008-08-01T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 38
+},{
+  "codigo_pedido": 119,
+  "fecha_pedido": "2009-01-10",
+  "fecha_esperada": "2009-01-15",
+  "fecha_entrega": {
+    "$date": "2009-01-15T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "El pedido llego perfectamente",
+  "codigo_cliente": 16
+},{
+  "codigo_pedido": 121,
+  "fecha_pedido": "2008-12-28",
+  "fecha_esperada": "2009-01-08",
+  "fecha_entrega": {
+    "$date": "2009-01-08T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "Pago pendiente",
+  "codigo_cliente": 16
+},{
+  "codigo_pedido": 122,
+  "fecha_pedido": "2009-04-09",
+  "fecha_esperada": "2009-04-15",
+  "fecha_entrega": {
+    "$date": "2009-04-15T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 16
+},{
+  "codigo_pedido": 123,
+  "fecha_pedido": "2009-01-15",
+  "fecha_esperada": "2009-01-20",
+  "fecha_entrega": {
+    "$date": "2009-01-24T00:00:00.000Z"
+  },
+  "estado": "Pendiente",
+  "comentarios": "NULL",
+  "codigo_cliente": 30
+},{
+  "codigo_pedido": 124,
+  "fecha_pedido": "2009-03-02",
+  "fecha_esperada": "2009-03-06",
+  "fecha_entrega": {
+    "$date": "2009-03-06T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 30
+},{
+  "codigo_pedido": 126,
+  "fecha_pedido": "2009-05-13",
+  "fecha_esperada": "2009-05-15",
+  "fecha_entrega": {
+    "$date": "2009-05-20T00:00:00.000Z"
+  },
+  "estado": "Pendiente",
+  "comentarios": "NULL",
+  "codigo_cliente": 30
+},{
+  "codigo_pedido": 127,
+  "fecha_pedido": "2009-04-06",
+  "fecha_esperada": "2009-04-10",
+  "fecha_entrega": {
+    "$date": "2009-04-10T00:00:00.000Z"
+  },
+  "estado": "Entregado",
+  "comentarios": "NULL",
+  "codigo_cliente": 30
+},{
+  "codigo_pedido": 128,
+  "fecha_pedido": "2008-11-10",
+  "fecha_esperada": "2008-12-10",
+  "fecha_entrega": {
+    "$date": "2008-12-29T00:00:00.000Z"
+  },
+  "estado": "Rechazado",
+  "comentarios": "El pedido ha sido rechazado por el cliente por el retraso en la entrega",
+  "codigo_cliente": 38
+}]
